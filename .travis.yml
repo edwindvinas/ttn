@@ -1,0 +1,30 @@
+language: go
+
+sudo: required
+
+go:
+    - 1.6
+
+before_install:
+    - sudo apt-get update
+
+install:
+    - sudo apt-get install mosquitto
+    - make deps
+    - make test-deps
+    - make cover-deps
+
+before_script:
+    - mosquitto -p 1883 1>/dev/null 2>/dev/null &
+
+services:
+    - redis-server
+
+script:
+    - make test
+    - make fmt
+    - make vet
+
+after_success:
+    - make cover
+    - make coveralls
