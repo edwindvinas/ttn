@@ -14,7 +14,7 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"github.com/edwindvinas/ttn/core/types"
-	"github.com/TheThingsNetwork/ttn/ttnctl/util"
+	"github.com/edwindvinas/ttn/ttnctl/util"
 	"github.com/apex/log"
 	"github.com/gosuri/uitable"
 	"github.com/mitchellh/go-homedir"

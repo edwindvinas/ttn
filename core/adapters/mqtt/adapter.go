@@ -8,7 +8,7 @@ import (
 
 	"github.com/edwindvinas/ttn/core"
 	"github.com/edwindvinas/ttn/core/types"
-	ttnMQTT "github.com/TheThingsNetwork/ttn/mqtt"
+	ttnMQTT "github.com/edwindvinas/ttn/mqtt"
 	"github.com/edwindvinas/ttn/utils/errors"
 	"github.com/apex/log"
 	"golang.org/x/net/context"

@@ -14,7 +14,7 @@ import (
 	handlerMQTT "github.com/edwindvinas/ttn/core/adapters/mqtt"
 	"github.com/edwindvinas/ttn/core/components/broker"
 	"github.com/edwindvinas/ttn/core/components/handler"
-	ttnMQTT "github.com/TheThingsNetwork/ttn/mqtt"
+	ttnMQTT "github.com/edwindvinas/ttn/mqtt"
 	"github.com/edwindvinas/ttn/utils/stats"
 	"github.com/apex/log"
 	"github.com/spf13/cobra"

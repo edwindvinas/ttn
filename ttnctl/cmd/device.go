@@ -11,7 +11,7 @@ import (
 
 	"github.com/edwindvinas/ttn/core"
 	"github.com/edwindvinas/ttn/core/types"
-	"github.com/TheThingsNetwork/ttn/ttnctl/util"
+	"github.com/edwindvinas/ttn/ttnctl/util"
 	"github.com/edwindvinas/ttn/utils/random"
 	"github.com/apex/log"
 	"github.com/gosuri/uitable"

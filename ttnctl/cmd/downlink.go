@@ -6,7 +6,7 @@ package cmd
 import (
 	"github.com/edwindvinas/ttn/core"
 	"github.com/edwindvinas/ttn/core/types"
-	"github.com/TheThingsNetwork/ttn/ttnctl/util"
+	"github.com/edwindvinas/ttn/ttnctl/util"
 	"github.com/spf13/cobra"
 )
 

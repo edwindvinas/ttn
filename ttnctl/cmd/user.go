@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/TheThingsNetwork/ttn/ttnctl/util"
+	"github.com/edwindvinas/ttn/ttnctl/util"
 	"github.com/howeyc/gopass"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

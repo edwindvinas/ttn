@@ -10,7 +10,7 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/edwindvinas/ttn/core"
-	"github.com/TheThingsNetwork/ttn/ttnctl/util"
+	"github.com/edwindvinas/ttn/ttnctl/util"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

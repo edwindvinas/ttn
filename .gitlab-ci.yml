@@ -14,9 +14,9 @@ binaries:
     - echo "date $CI_BUILD_DATE" >> release/info
     - echo "commit $CI_BUILD_REF" >> release/info
     - rm -rf $GOPATH/src
-    - mkdir -p $GOPATH/src/github.com/TheThingsNetwork/ttn
-    - cp -R . $GOPATH/src/github.com/TheThingsNetwork/ttn
-    - pushd $GOPATH/src/github.com/TheThingsNetwork/ttn
+    - mkdir -p $GOPATH/src/github.com/edwindvinas/ttn
+    - cp -R . $GOPATH/src/github.com/edwindvinas/ttn
+    - pushd $GOPATH/src/github.com/edwindvinas/ttn
     - make deps
     - TARGET_PLATFORM=linux-386 make deps build
     - TARGET_PLATFORM=linux-amd64 make deps build
@@ -25,7 +25,7 @@ binaries:
     - TARGET_PLATFORM=windows-386 make deps build
     - TARGET_PLATFORM=windows-amd64 make deps build
     - popd
-    - cp -R $GOPATH/src/github.com/TheThingsNetwork/ttn/release/* release/
+    - cp -R $GOPATH/src/github.com/edwindvinas/ttn/release/* release/
   artifacts:
     paths:
       - release/

@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/edwindvinas/ttn/core/types"
-	"github.com/TheThingsNetwork/ttn/semtech"
-	"github.com/TheThingsNetwork/ttn/ttnctl/util"
+	"github.com/edwindvinas/ttn/semtech"
+	"github.com/edwindvinas/ttn/ttnctl/util"
 	"github.com/edwindvinas/ttn/utils/pointer"
 	"github.com/edwindvinas/ttn/utils/random"
 	"github.com/brocaar/lorawan"

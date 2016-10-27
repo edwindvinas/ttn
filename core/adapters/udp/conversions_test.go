@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/edwindvinas/ttn/core"
-	"github.com/TheThingsNetwork/ttn/semtech"
+	"github.com/edwindvinas/ttn/semtech"
 	"github.com/edwindvinas/ttn/utils/pointer"
 	. "github.com/edwindvinas/ttn/utils/testing"
 	"github.com/brocaar/lorawan"

@@ -10,8 +10,8 @@ import (
 
 	"github.com/edwindvinas/ttn/core"
 	"github.com/edwindvinas/ttn/core/types"
-	"github.com/TheThingsNetwork/ttn/mqtt"
-	"github.com/TheThingsNetwork/ttn/ttnctl/util"
+	"github.com/edwindvinas/ttn/mqtt"
+	"github.com/edwindvinas/ttn/ttnctl/util"
 	"github.com/spf13/cobra"
 )
 

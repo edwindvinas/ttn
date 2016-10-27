@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/edwindvinas/ttn/core"
-	"github.com/TheThingsNetwork/ttn/semtech"
+	"github.com/edwindvinas/ttn/semtech"
 	"github.com/edwindvinas/ttn/utils/errors"
 	"github.com/edwindvinas/ttn/utils/stats"
 	"github.com/apex/log"
