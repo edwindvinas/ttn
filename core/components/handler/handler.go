@@ -96,7 +96,7 @@ func New(c Components, o Options) Interface {
 	h.Configuration.CFList = [5]uint32{867100000, 867300000, 867500000, 867700000, 867900000}
 	h.Configuration.NetID = [3]byte{14, 14, 14}
 	//h.Configuration.RX1DROffset = 0
-	h.Configuration.Rx1DrOffset= 0
+	h.Configuration.Rx1DrOffset = 0
 	h.Configuration.RFChain = 0
 	h.Configuration.InvPolarity = true
 
@@ -762,7 +762,8 @@ func (h component) buildJoinAccept(joinReq *core.JoinHandlerReq, appKey [16]byte
 		DevAddr: lorawan.DevAddr(devAddr),
 		//DLSettings: lorawan.DLsettings{
 		DLSettings: lorawan.DLSettings{
-			RX1DRoffset: 0, // TODO: Configure this per region
+			//RX1DRoffset: 0, // TODO: Configure this per region
+			RX1DROffset: 0, // TODO: Configure this per region
 			RX2DataRate: rx2dr,
 		},
 		RXDelay: 1, // TODO: Configure this per region
