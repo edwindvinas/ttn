@@ -36,7 +36,8 @@ type component struct {
 	Configuration          struct {
 		CFList      [5]uint32
 		NetID       [3]byte
-		RX1DROffset uint8
+		//RX1DROffset uint8
+		Rx1DrOffset uint8
 		RFChain     uint32
 		InvPolarity bool
 	}
@@ -94,7 +95,8 @@ func New(c Components, o Options) Interface {
 	// TODO Make it configurable
 	h.Configuration.CFList = [5]uint32{867100000, 867300000, 867500000, 867700000, 867900000}
 	h.Configuration.NetID = [3]byte{14, 14, 14}
-	h.Configuration.RX1DROffset = 0
+	//h.Configuration.RX1DROffset = 0
+	h.Configuration.Rx1DrOffset= 0
 	h.Configuration.RFChain = 0
 	h.Configuration.InvPolarity = true
 
